@@ -3,3 +3,4 @@ __pycache__
 tskmngmt
 .vscode
 .vscode
+.pytest_cache
