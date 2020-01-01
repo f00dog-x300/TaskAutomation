@@ -1,4 +1,4 @@
-from FileManagement.file_mover import FileMover
+FileManagement.file_mover
 import pytest
 import sys
 
