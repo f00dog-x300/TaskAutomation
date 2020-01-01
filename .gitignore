@@ -1,6 +1,6 @@
 venv
 __pycache__
-tskmngmt
+tskmngr-venv
 .vscode
 .vscode
 .pytest_cache

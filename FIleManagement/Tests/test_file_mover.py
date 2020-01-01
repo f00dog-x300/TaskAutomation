@@ -4,7 +4,7 @@
 CONTENT = "content"
 
 def test_create_file(tmp_path):
-"""Testing how to move one file"""
+    """Testing how to move one file"""
     # creating test directories
     source_dir = tmp_path / "source"
     destination_dir = tmp_path / "destination"
@@ -23,9 +23,4 @@ def test_create_file(tmp_path):
     file_dest_dir_state = destination_dir / "test_file.txt"
 
     # TODO : Assert that the temporary file is in the destination folder
-    
-
-
-
-    assert test_file.read_text() == CONTENT
 
